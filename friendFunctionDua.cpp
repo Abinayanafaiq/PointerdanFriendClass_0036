@@ -25,3 +25,11 @@ void manusia::showNilaiPelajr(pelajar &x) {
     cout << "Nilai pelajar: " << x.nilai << endl; 
 };
 
+
+int main(){
+    manusia budi;
+    pelajar budi;
+    budi.showNilaiPelajr(budi); // Call showNilaiPelajr method to show nilai from pelajar class
+    return 0; // Return 0 to indicate successful completion
+    
+}
