@@ -12,3 +12,12 @@ class orang;
         void setNama(string pNama);
         friend class siswa; // Declare class siswa as a friend of class orang
 };
+
+class siswa {
+    private:
+        int id;
+    
+    public:
+        void setId(int pId);
+        void showNama(orang &a); // Method to show name from orang class
+};
