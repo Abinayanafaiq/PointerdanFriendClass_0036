@@ -22,6 +22,6 @@ class siswa {
         void displayAll(orang &a); // Method to show name from orang class
 };
 
-void siswa::setId(int pId) {
-    id = pId;
+void siswa::displayAll(orang &a) {
+    cout << id << endl << a.nama;
 }
