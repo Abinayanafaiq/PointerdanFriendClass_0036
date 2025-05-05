@@ -19,5 +19,5 @@ class siswa {
     
     public:
         void setId(int pId);
-        void showNama(orang &a); // Method to show name from orang class
+        void displayAll(orang &a); // Method to show name from orang class
 };
