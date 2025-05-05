@@ -19,3 +19,9 @@ class pelajar
         pelajar() { nilai = 100; } // Constructor to initialize nilai
         friend void manusia::showNilaiPelajr(pelajar &x); // Declare showNilaiPelajr as a friend of pelajar class
 };
+
+
+void manusia::showNilaiPelajr(pelajar &x) {
+    cout << "Nilai pelajar: " << x.nilai << endl; 
+};
+
